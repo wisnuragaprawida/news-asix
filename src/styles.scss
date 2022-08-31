@@ -1,0 +1,26 @@
+$primary-color:#850E35;
+$secondary-color: #EE6983;
+$tertiary-color: #FFC4C4;
+$quaternary-color: #FFF5E4;
+
+
+
+//text
+.text-purple{
+  color: $primary-color;
+}
+//btn
+.btn-primary-na{
+  background-color: $primary-color;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    background-color: $tertiary-color;
+  }
+}

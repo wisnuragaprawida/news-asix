@@ -1,0 +1,57 @@
+@import '../../../../styles.scss';
+
+.hero {
+  height: 100vh;
+  position: relative;
+  background-color: #fff;
+  color: $primary-color;
+}
+.content{
+  top: 200px;
+}
+
+.hero .hero-title {
+  color: $primary-color;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.text-wraper{
+  width: 600px;
+}
+
+@media (min-width: 768px) {
+  .hero .hero-title {
+    font-size: 3.5rem;
+  }
+}
+
+.hero .hero-subtitle {
+  
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .hero .hero-subtitle {
+    font-size: 21px;
+  }
+}
+
+.hero .overlay-itro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center center;
+}
+
