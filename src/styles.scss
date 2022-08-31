@@ -6,8 +6,23 @@ $quaternary-color: #FFF5E4;
 
 
 //text
-.text-purple{
+.text-primary-na{
   color: $primary-color;
+}
+.text-secondary-na{
+  color: $secondary-color;
+}
+.text-tertiary-na{
+  color: $tertiary-color;
+}
+.text-quaternary-na{
+  color: $quaternary-color;
+}
+.text-black-na{
+  color: #000;
+}
+.text-grey-na{
+  color: rgb(99, 95, 95);
 }
 //btn
 .btn-primary-na{
@@ -18,9 +33,33 @@ $quaternary-color: #FFF5E4;
   padding: 8px 20px;
   font-size: 1rem;
   font-weight: 600;
+  z-index: 1;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   &:hover{
     background-color: $tertiary-color;
   }
+}
+.btn-secondary-na{
+  background-color: $secondary-color;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    background-color: $tertiary-color;
+  }
+}
+//background
+.bg-secondary-na{
+  background-color: $secondary-color;
+}
+
+//pointer
+.pointer{
+  cursor: pointer;
 }

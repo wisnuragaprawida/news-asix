@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ResumeComponent } from './resume/resume.component';
-import { TodosComponent } from './todos/todos.component';
 
 const routes: Routes = [
   {
@@ -9,13 +7,14 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
   },
   {
-    path: 'demo/resume',
-    component: ResumeComponent
+    path: 'tentang-kami',
+    loadChildren: () => import('./about/about.module').then(m => m.AboutModule)
   },
   {
-    path: 'demo/todos',
-    component: TodosComponent
+    path: 'artikel',
+    loadChildren: () => import('./article/article.module').then(m => m.ArticleModule)
   }
+ 
 ];
 
 @NgModule({

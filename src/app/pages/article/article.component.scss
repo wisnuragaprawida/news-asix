@@ -1,0 +1,70 @@
+@import '../../../styles.scss';
+
+
+.article {
+  background-color: #fff;
+  color: $primary-color;
+}
+.content{
+width:100%;
+margin: 100px 0 0 0;
+  
+}
+.article-content{
+    margin: 40px;
+   
+}
+.article-content a{
+    text-decoration: none;
+    
+}
+
+.article .article-title {
+  color: $primary-color;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .article .article-title {
+    font-size: 3.5rem;
+  }
+}
+
+.article .article-subtitle {
+  
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .article .article-subtitle {
+    font-size: 21px;
+  }
+}
+
+.article .overlay-itro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+

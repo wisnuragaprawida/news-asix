@@ -1,0 +1,108 @@
+@import '../../../styles.scss';
+
+
+.about {
+  background-color: #fff;
+  color: $primary-color;
+}
+.content{
+width:90%;
+margin: 100px 0 0 0;
+  
+}
+
+.about .about-title {
+  color: $primary-color;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.about-wraper{
+  width: 700px;
+}
+.text-wraper{
+    width: 65%;
+    margin: 0 0 40px 0;
+}
+
+.about-sidebar{
+    border-right: 3px solid $primary-color;
+    z-index: 1;
+    
+}
+.about-sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.about-sidebar ul li{
+    padding: 10px 20px;
+    border-bottom: 1px solid $primary-color;
+    &:hover{
+        background-color: $tertiary-color;
+    }
+
+}
+.about-sidebar ul  a{
+    color: $primary-color;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+   
+}
+.content-outlet{
+    border-radius: 10px;
+    width: 100%;
+    color: $quaternary-color;
+    padding: 14px 10px;
+}
+.wave{
+    margin-top: -200px;
+    z-index: -1;
+}
+
+
+
+@media (min-width: 768px) {
+  .about .about-title {
+    font-size: 3.5rem;
+  }
+}
+
+.about .about-subtitle {
+  
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .about .about-subtitle {
+    font-size: 21px;
+  }
+}
+
+.about .overlay-itro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+
+
+
